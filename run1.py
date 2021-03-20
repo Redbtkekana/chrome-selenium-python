@@ -5,6 +5,9 @@ Created on Sat Mar 20 09:04:33 2021
 @author: F ANAME
 """
 # pip install webdriver-manager
+import os
+
+os.environ['DISPLAY'] = ':0'
 
 import html5lib
 from selenium import webdriver
